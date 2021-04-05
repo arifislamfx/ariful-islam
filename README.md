@@ -1,3 +1,3 @@
 ﻿# This is my dream portfolio website
-<h1 class = "center"> Ariful Islam </h1>
+ <h1 class = "center"> Ariful Islam </h1>
 
