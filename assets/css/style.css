@@ -1,14 +1,61 @@
 /* google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600&family=Sacramento&family=Satisfy&display=swap');
 
-body {
+/* fonts collection {
 font-family: 'Courgette', cursive;
 font-family: 'Montserrat', sans-serif !important;
 font-family: 'Poppins', sans-serif;
 font-family: 'Sacramento', cursive;
 font-family: 'Satisfy', cursive;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    height: 100vh;
+}
+#particles-js {
+height: 80%;
+background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.navbar {
+background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+;
 }
 .navbar-brand {
     font-family: 'Satisfy', cursive;
-    font-size: 35px;
+    font-size: 2rem;
+    color: #fff !important;
 }
+.navbar-brand:hover {
+    color: rgba(216, 11, 130, 0.801) !important;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+.nav-link:hover {
+    color: rgb(250, 160, 160) !important;
+}
+
+/* /* .navbar-toggler {
+    color: #fff !important;
+} */
+/* .navbar-toggler-icon {
+    color: #fff !important;
+    background: transparent;
+} */
